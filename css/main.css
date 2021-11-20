@@ -152,7 +152,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 800px;
   position: relative;
 }
 
@@ -175,7 +175,6 @@ h5 {
   color: white;
   z-index: 2;
   text-align: center;
-  max-width: 60%;
 }
 
 .slide .slide1 {
@@ -596,6 +595,11 @@ section {
   .connecting h2 {
     font-size: 44px;
   }
+  .header {
+    max-width: 360px;
+    display: -ms-grid;
+    display: grid;
+  }
   .header .logo div {
     max-width: 70px;
     background-size: contain;
@@ -633,14 +637,6 @@ section {
     background-color: white;
     top: 40%;
     right: 110%;
-  }
-  .header #menu_burger {
-    display: none;
-  }
-  .header #menu_burger:checked ~ nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   .header #mobile_close {
     position: absolute;
@@ -719,9 +715,6 @@ section {
   .header .header_right .social a div#twitter {
     -webkit-mask: url(../images/ICONS/twitter-brands.svg) no-repeat 100% 100%;
             mask: url(../images/ICONS/twitter-brands.svg) no-repeat 100% 100%;
-  }
-  .header .header_right .social img {
-    width: 16px;
   }
   .footer {
     display: -webkit-box;
