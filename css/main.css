@@ -139,10 +139,6 @@ h5 {
 }
 
 /*main*/
-.slide {
-  height: 800px;
-}
-
 .slide .slide1,
 .slide .slide2,
 .slide .slide3 {
@@ -156,7 +152,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 660px;
+  height: 100vh;
   position: relative;
 }
 
